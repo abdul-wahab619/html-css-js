@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+
+}
+.container button:hover {
+  transform: scale(0.8);
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: rgb(197, 197, 29);
+  color: #000;
+
+}
+.purple {
+  background-color: purple;
+}
+.orange {
+  background-color: orange;
+}
+.pink {
+  background-color: rgb(191, 109, 123);
+}
+.container .reset {
+  background-color: #fff;
+  color: #000;
+}
